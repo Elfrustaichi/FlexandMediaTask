@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 200px;
+}
+.row{
+    height: 50%;
+}
+.row{
+    display: flex;
+    align-items: center;
+  
+   justify-content: space-around;
+}
+
+.achivement-part{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.achivement-part b{
+    font-size: 50px;
+
+}
+.achivement-part span{
+    font-size: 25px;
+}
+p,span,b{
+    color: white;
+}
+#Achivements{
+  margin-top: 500px;
+    background-image: url(./img/code-academy-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    
+}
+body{
+    height: 3000px;
+}
+.row p{
+    font-size: large;
+}
